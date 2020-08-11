@@ -1,0 +1,10 @@
+list=[]
+tupleEx=()
+
+for x in range(5):
+    num=(int(input("Enter the value ")))
+    list.insert(x,num)
+
+tupleEx=tuple(list)
+print("Elements in list=",list)
+print("Elements in tuples=",tupleEx)
