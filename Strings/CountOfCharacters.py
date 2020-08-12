@@ -5,7 +5,9 @@ characterCount={} #creates empty string
 for x in userInput:
     if x in characterCount:
         characterCount[x]+=1 #update the value
+        userInput=userInput.replace(x,"$")
     else:
         characterCount[x] = 1 #addes the value and key
 
 print("The count of characters in given string =",characterCount)
+print(userInput)
