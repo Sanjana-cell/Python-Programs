@@ -1,3 +1,4 @@
+#Program to create set difference
 set_1=set()
 set_2=set()
 def createSet():
@@ -15,5 +16,5 @@ set_1=createSet()
 set_2=createSet()
 print("Set 1",set_1)
 print("Set 2",set_2)
-print("Difference of the Set_1 - Set_2",set_1.difference(set_2))
-print("Difference of the Set_2 - Set_1",set_2.difference(set_1))
+print("Difference of the Set_1 - Set_2",set_1.difference(set_2)) #Prints the difference of set 1 and set 2
+print("Difference of the Set_2 - Set_1",set_2.difference(set_1)) #Prints the difference of set 2 and set 1

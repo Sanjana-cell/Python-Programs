@@ -1,3 +1,4 @@
+#Program to create union of two sets
 set_1=set()
 set_2=set()
 def createSet():
@@ -15,4 +16,4 @@ set_1=createSet()
 set_2=createSet()
 print(set_1)
 print(set_2)
-print("Union of the Sets",set_1.union(set_2))
+print("Union of the Sets",set_1.union(set_2)) #prints union of the sets

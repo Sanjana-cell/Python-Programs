@@ -1,3 +1,4 @@
+#Program to clear the sets
 set_1=set()
 def createSet():
     """
@@ -13,8 +14,8 @@ def createSet():
 set_1=createSet()
 print(set_1)
 choice=input("Do you want to create the set ? Enter y for yes")
-if choice == "y":
-    set_1.clear()
+if choice == "y": #check if choice y if y then clears the set
+    set_1.clear() #clear the set
     print("Cleared all elements")
     print(set_1)
 else:

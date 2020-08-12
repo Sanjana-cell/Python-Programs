@@ -1,5 +1,5 @@
+#Program to remove item from set only if exists
 setEx=set()
-
 def removeElement(mySet,value):
     """
     remove the element in the set

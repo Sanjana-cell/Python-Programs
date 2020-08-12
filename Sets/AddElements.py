@@ -1,5 +1,6 @@
-setEx=set()
+#Program to add members in set
 
+setEx=set()
 def addElement(mySet,value):
     """
     add the element in the set

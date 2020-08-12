@@ -1,3 +1,4 @@
+# Program to remove item from set
 setEx=set()
 
 def removeElement(mySet,value):

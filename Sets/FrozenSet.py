@@ -1,3 +1,4 @@
+#Program to create frozen set
 set_1=set()
 set_2=set()
 def createSet():
@@ -24,7 +25,7 @@ def addElement(mySet,value):
     return mySet
 
 set_1=createSet()
-set_2=frozenset(createSet())
+set_2=frozenset(createSet()) #function call to create set ,converts normal list to frozen list and assigns to set 2
 
 print("Before adding the element")
 print("Set 1",set_1)
