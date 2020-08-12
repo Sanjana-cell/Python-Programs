@@ -1,3 +1,5 @@
+#Program to sum all the items in a list.
+
 def sumOfList(list):
     """
     returns the sum of all the elements in list
@@ -10,8 +12,10 @@ def sumOfList(list):
         sum=sum+myList[i]
     return sum
 
-size=(int(input("Enter the size ")))
-myList=[]
+size=(int(input("Enter the size "))) #stores the size of list
+myList=[] #created empty lists
+
+#for loop to add element in list , loops until it reaches the size
 for i in range(size):
     try:
         myList.append(int(input("Enter the integer value in list ")))
@@ -20,4 +24,4 @@ for i in range(size):
         continue
 
 print(myList)
-print("Sum elements in the list=",sumOfList(myList))
+print("Sum elements in the list=",sumOfList(myList)) #function call and prints the sum of elements
