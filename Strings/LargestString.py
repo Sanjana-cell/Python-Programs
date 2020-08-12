@@ -1,9 +1,14 @@
-#Program that takes a list of words and returns the length of the longest one
+#Program that takes a list of words and returns the length of the longest word in list
 
 
 def printLongestWordLength(myList):
-    max = len(myList[0])
+    """
+    prints the length of longest word
+    :param myList: list
+    """
+    max = len(myList[0]) #assigns the length of first element from list
     for x in myList:
+        #checks if length x is geater the max
         if len(x) >= max:
             max=len(x)
             maxElement=x
@@ -12,7 +17,8 @@ def printLongestWordLength(myList):
 
 size = (int(input("Enter the size of list ")))
 wordsList = []
+#loop to add elements in list
 for i in range(size):
     wordsList.append(input("Enter the word "))
 
-printLongestWordLength(wordsList)
+printLongestWordLength(wordsList) #function call
