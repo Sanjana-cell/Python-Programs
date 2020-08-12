@@ -7,10 +7,7 @@ def removeElement(mySet,value):
     :param value: value to be added in the set
     :return: return the updated set
     """
-    if value in mySet:
-        mySet.remove(value)
-    else:
-        print("No such element")
+    mySet.remove(value)
     return mySet
 
 size=(int(input("Enter the size of the size ")))
