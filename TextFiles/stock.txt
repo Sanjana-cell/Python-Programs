@@ -1,0 +1,3 @@
+Item1:Rice Price_Per_Kg:60 Name:basmati Weight:7
+Item2:Wheat Price_Per_Kg:45 Name:atta Weight:5
+Item3:Pulse Price_Per_Kg:65 Name:greens Weight:3
