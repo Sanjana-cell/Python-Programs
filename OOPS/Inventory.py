@@ -1,3 +1,4 @@
+#Program to Calcultes the total Price of each items from data.json
 import json
 
 class Inventory :
@@ -40,13 +41,14 @@ class Inventory :
         :param newDetails: dictionary
         """
         try:
-            with open("UpdatedInventoryDetail.json", "w") as outfile:
+            with open("C:/Users/user/PycharmProjects/pythonPrograms/venv/JsonFiles/UpdatedInventoryDetail.json", "w") \
+                    as outfile:
                 outfile.write(newDetails)
                 print("Created new file")
         except:
             traceback.print_exception(*sys.exc_info())
 
-path='data.json'
+path='C:/Users/user/PycharmProjects/pythonPrograms/venv/JsonFiles/data.json'
 stock = Inventory(path) #object instantiated
 try:
     data=stock.openFile() #function call to open json file
