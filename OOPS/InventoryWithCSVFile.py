@@ -1,4 +1,4 @@
-#Program to Calcultes the total Price of each items from csv file
+#Program to Calculate the total Price of each items from csv file
 import pandas as pd
 
 class Stock:

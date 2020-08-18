@@ -1,4 +1,4 @@
-#Program to Calcultes the total Price of each items from data.json
+#Program to Calculate the total Price of each items from data.json
 import json
 
 class Inventory :
